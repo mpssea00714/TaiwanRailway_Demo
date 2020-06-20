@@ -56,6 +56,7 @@ def transTraditionChar(stationName):
     return stationName
 
 
+# 執行段
 checkToday = input(f'是否查詢今日{searchDay}車班:(Y/N)')
 if checkToday.lower() != "y":
     checkToday = input(f'請填入查詢日期(格式:yyyy/mm/dd)')
